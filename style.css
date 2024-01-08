@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.main{
+    background-image: url(img/TR-tr-20231120-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    height: 644px;
+    position: relative;
+}
+
+.main .box{
+    height: 644px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    opacity: 0.65;
+}
+
+nav{
+    max-width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    height: 100px;
+}
+
+nav img{
+    width: 130px;
+    color: red;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.hero{
+    height: calc(100% - 100px);
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 30px;
+    gap: 23px;
+}
+
+.hero > :nth-child(1){
+   font-size: 48px;
+   font-weight: bolder;
+   text-align: center;
+
+}
+
+.hero > :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero > :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.seperation{
+    background-color: rgb(46, 44, 44);
+    height: 7px;
+    position: relative;
+    z-index: 20;
+}
+
+.btn{
+    background-color: rgba(248, 243, 243, 0.021);
+    color: white;
+    border: 0.5px solid white;
+    font-weight: 400;
+    padding: 3px 25px;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.btn.btn-red {
+    background-color: #C11119;
+    padding: 7px 28px;
+    font-size: 20px;
+    border: none;
+  }
+
+  .btn-red-sm {
+    background-color: #f30f20;
+    padding: 3px 15px;
+    border: none;
+  }
+
+  .hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .main input {
+    color: white;
+    border-radius: 4px;
+    padding: 15px 101px 8px 14px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(248, 243, 243, 0.5);
+    outline: none;
+  }
+
+  .first{
+    display: flex;
+    max-width: 80vw;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .secimg{
+    position: relative;
+  }
+
+  .secimg img{
+    width: 570px;
+    position: relative;
+    z-index: 10;
+  }
+
+  .secimg video{
+    position: absolute;
+    right: 0;
+    top: 80px;
+    width: 500px;
+  }
+
+  section.first > div{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+  }
+
+  section.first > div :nth-child(1){
+    font-size: 48px;
+    font-weight: bold;
+  }
+
+  section.first > div :nth-child(2){
+    font-size: 20px;
+  }
+
+ .secimg2 video{
+    width: 375px;
+    right: 100px;
+ }
+
+
+.fqa{
+  color: white;
+  padding: 34px;
+}
+
+.fqa h2{
+  text-align: center;
+  font-size: 48px;
+}
+
+.faqbox{
+  display: flex;
+  justify-content: space-between;
+  background-color: #2d2d2d;
+  font-size: 23px;
+  padding: 24px;
+  max-width: 60vw;
+  margin: 17px auto;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+
+.faqbox:hover{
+  background-color: #444444;
+  transition: .5s all ease-in-out;
+}
+
+.register{
+  color: white;
+  text-align: center;
+  justify-content: center;
+  font-size: 22px;
+}
+
+.btns{
+  margin: 20px;
+  margin-bottom: 50px;
+}
+
+.btns input{
+  color: white;
+  border-radius: 4px;
+  padding: 14px 101px 8px 14px;
+  background-color: rgba(23, 23, 23, 0.7);
+  border: 1px solid rgba(248, 243, 243, 0.5);
+  outline: none;
+}
+
+footer{
+  max-width: 60vw;
+  color: gray;
+  margin: auto;
+  padding: 60px;
+}
+
+footer .questions{
+  padding: 34px 0;
+}
+
+.footer{
+  display: grid;
+  grid-template-columns:repeat(4, 1fr)
+}
+
+.footer a{
+  font-size: 16px;
+  color: grey;
+  padding: 6px;
+}
+
+.footer-item{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+#lang{
+  padding: 4px 15px;
+}
+
+select{
+  color: white;
+  border-radius: 4px;
+  background-color: rgba(23, 23, 23, 0.7);
+  border: 1px solid rgba(248, 243, 243, 0.5);
+  outline: none;
+}
+
+@media screen and (max-width: 1300px){
+  .nav{
+    max-width: 90vw;
+  }
+
+  .first{
+    flex-wrap:wrap ;
+  }
+
+  .hero > :nth-child(1){
+    font-size: 30px;
+  }
+
+  .hero > :nth-child(2){
+    font-size: 18px;
+  }
+
+  .hero > :nth-child(3){
+    font-size: 16px;
+  }
+
+  .hero-buttons{
+    flex-direction: column;
+  }
+
+  section.first > div :nth-child(1){
+    font-size: 30px;
+  }
+
+  section.first > div :nth-child(2){
+    font-size: 20px;
+  }
+
+  .fqa h2{
+    font-size: 30px;
+  }
+
+  .footer{
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+  }
+
+  .footer-item{
+    margin: 0;
+  }
+
+  .faqbox{
+    font-size: 18px;
+  }
+  }
